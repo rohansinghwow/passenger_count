@@ -1,9 +1,20 @@
 body {
     
-    
+    background: #EDF4F2;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
+}
+.container{
+    margin-top: 30px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    max-width: 400px;
+    height: 360px;
+    margin-right: auto;
+    margin-left: auto;
+    background: white;
+    padding: 20px;
+
 }
 
 h1 {
@@ -29,10 +40,16 @@ button {
 }
 
 #increment-btn {
-    background: darkred;
+    background: #D32626
+}
+#increment-btn:hover{
+    cursor: pointer;
 }
 
 #save-btn {
-    background: darkgreen;
+    background: #79D70F;
+}
+#save-btn:hover{
+    cursor: pointer;
 }
 
